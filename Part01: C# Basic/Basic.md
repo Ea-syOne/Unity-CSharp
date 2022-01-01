@@ -29,6 +29,9 @@ JavaScript에서의 var와 같이 정해진 type은 없고 동적으로 type이 
 ---------------------------------------------
 
 ### C# 제공 Object
+#### Object
+모든 Object의 parent인 객체. 따라서 object obj = ( 어떤 type이든 가능 )이다. <br>
+Object는 무조건 Ref 타입으로 저장되기 때문에 무거운 작업이고, 따라서 남용하는 것은 좋지 않다. 
 #### String
 C#에서 제공되는 문자열.<br>
 ##### .contains(), .indexOf()
